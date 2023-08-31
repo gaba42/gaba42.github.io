@@ -8,7 +8,9 @@
  "children": [
   "archive",
   "book",
+  "deeplearning",
   "drive",
+  "git",
   "how-to",
   "math",
   "neuroscience",

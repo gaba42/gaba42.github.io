@@ -1,0 +1,9 @@
+{
+ "type": "wiki",
+ "title": "rebase",
+ "summary": "commit 내역은 지우되 code 내용은 현재 상태에 두는 방법",
+ "parent": "git",
+ "url": "/wiki/git/rebase",
+ "updated": "2023-08-31 10:46:56 +0900",
+ "children": []
+}

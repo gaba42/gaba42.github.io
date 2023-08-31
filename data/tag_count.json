@@ -1,10 +1,22 @@
 [
  {
+  "name": "commit",
+  "size": 1
+ },
+ {
+  "name": "git",
+  "size": 1
+ },
+ {
   "name": "how-to",
   "size": 1
  },
  {
   "name": "memo",
+  "size": 1
+ },
+ {
+  "name": "rebase",
   "size": 1
  }
 ]
