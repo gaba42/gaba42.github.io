@@ -1,0 +1,97 @@
+<!-- left right 설정 -->
+{% assign current = paginator.page %}
+{% assign first = 1 %}
+{% assign last = paginator.total_pages | plus: 0 %}
+{% assign left = current | minus: 2 %}
+{% assign right = current | plus: 2 %}
+
+{% if last <= 5 %}
+    {% assign left = 1 %}
+    {% assign right = paginator.total_pages %}
+{% elsif right > last %}
+    {% assign offset = right | minus: last %}
+    {% assign left = left | minus: offset %}
+    {% assign right = last %}
+{% elsif first > left %}
+    {% assign offset = 0 | minus: left | plus: 1%}
+    {% assign right = right | plus: offset %}
+    {% assign left = first %}
+{% endif %}
+
+<!-- links 설정 -->
+{% assign links = "" | split: "|" %}
+
+<!-- previous link -->
+{% if current <= 1 %}
+    {% assign pageData = '' | append: ',' | append: '&#60;' | split: ',' %}
+    {% assign links = links | push: pageData %}
+{% else %}
+    {% assign pageData = '/page' | append: paginator.previous_page | append: ',' | append: '&#60;' | split: ',' %}
+    {% assign links = links | push: pageData %}
+{% endif %}
+
+<!-- number links -->
+{% for page in (left..right) %}
+
+    {% assign label = page %}
+    {% assign link = '/page' | append: page %}
+
+    {% if page == current %}
+        {% assign label = '#' %}
+        {% assign link = '' %}
+    {% elsif page <= 1 %}
+        {% assign link = site.url %}
+    {% endif %}
+
+    {% assign pageData = link | append: ',' | append: label | split: ',' %}
+    {% assign links = links | push: pageData %}
+
+{% endfor%}
+
+<!-- next link -->
+{% if current >= last %}
+    {% assign pageData = '' | append: ',' | append: '&#62;' | split: ',' %}
+    {% assign links = links | push: pageData %}
+{% else %}
+    {% assign pageData = '/page' | append: paginator.next_page | append: ',' | append: '&#62;' | split: ',' %}
+    {% assign links = links | push: pageData %}
+{% endif %}
+
+<div class="container">
+    <ul class="pagination justify-content-center"
+{% if page.url == '/blog/' %}
+            <li class="page-item disabled">
+{% else %}
+            <li class="page-item">
+{% endif %}
+            <a class="page-link" href="/blog">Begin</a>
+        </li>
+
+{% for pageData in links %}
+    {% assign link = pageData[0] %}
+    {% if link == '/page1' %}
+        {% assign link = '/' %}
+    {% endif %}
+
+    {% assign label = pageData[1] %}
+    {% if link == site.url %}
+        {% assign link = '/' %}
+    {% endif %}
+    {% if link == '' %}
+            <li class="page-item active">
+                <a class="page-link">{{ label }}</a>
+    {% else %}
+            <li class="page-item">
+                <a class="page-link" href="/blog{{ link }}">{{ label }}</a>
+    {% endif %}
+        </li>
+{% endfor%}
+{% if current == paginator.total_pages %}
+            <li class="page-item disabled">
+{% else %}
+            <li class="page-item">
+{% endif %}
+            <a class="page-link" href="/blog/page{{ paginator.total_pages }}">End</a>
+        </li>
+    </ul>
+</div>

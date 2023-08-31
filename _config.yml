@@ -1,0 +1,61 @@
+# Site settings
+title: GABA42
+url: "https://gaba42.github.io"
+baseurl: ""
+description: >
+    gaba42 블로그
+
+# My information
+#email: @gmail.com
+author: gaba42
+profile: genius at play
+#twitter_username: John_Grib
+github_username: gaba42
+comment-support: giscus
+
+# Build settings
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+
+permalink: /blog/:year/:month/:day/:title/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 10
+paginator_path: "/blog"
+paginate_path: "/blog/page:num/"
+
+# Collections
+collections:
+    wiki:
+        output: true
+        permalink: /:collection/:path/
+
+# Comment Service
+giscus:
+  repo: gaba42/gaba42.github.io
+  repo_id: R_kgDOKJKznA
+  category: Announcements
+  category_id: DIC_kwDOKJKznM4CYulr
+
+google_analytics:
+  ua: G-EBNSLPTKN7
+  encrypted_ua: THIS-IS-SAMPLE-VALUE
+
+google_adsense:
+  client: SAMPLE-VALUE
+
+blame: "https://github.com/gaba42/gaba42.github.io/blame/master/_wiki"
+edit: "https://github.com/gaba42/gaba42.github.io/edit/master/_wiki"
+issue: "https://github.com/gaba42/gaba42.github.io/issues/new"
+
+timezone: "Asia/Seoul"
+
+# https://kramdown.gettalong.org/rdoc/Kramdown/Options.html - smart_quotes
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]

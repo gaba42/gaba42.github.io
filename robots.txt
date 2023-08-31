@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gaba42.github.io/sitemap.xml
