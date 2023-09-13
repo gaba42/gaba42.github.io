@@ -4,6 +4,14 @@
   "size": 1
  },
  {
+  "name": "blackhole",
+  "size": 1
+ },
+ {
+  "name": "bootcamp",
+  "size": 1
+ },
+ {
   "name": "commit",
   "size": 1
  },
@@ -16,6 +24,10 @@
   "size": 1
  },
  {
+  "name": "google",
+  "size": 1
+ },
+ {
   "name": "how-to",
   "size": 1
  },
@@ -25,6 +37,10 @@
  },
  {
   "name": "memo",
+  "size": 1
+ },
+ {
+  "name": "quicktime",
   "size": 1
  },
  {
