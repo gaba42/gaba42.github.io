@@ -1,0 +1,15 @@
+{
+ "type": "wiki",
+ "title": "DL mastery roadmap",
+ "summary": "",
+ "parent": "index",
+ "url": "/wiki/roadmap",
+ "updated": "2023-10-03 17:01:18 +0900",
+ "resource": "C5/6C51F0-50E2-4754-8FDD-B4EC254CE1CD",
+ "children": [
+  "roadmap/python",
+  "roadmap/pytorch",
+  "roadmap/system_adminstration",
+  "roadmap/web_development"
+ ]
+}

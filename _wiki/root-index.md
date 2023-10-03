@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : WIKI
 summary : 
 date    : 2023-08-20 16:04:36 +0900
-updated : 2023-09-22 11:43:27 +0900
+updated : 2023-10-03 17:01:18 +0900
 resource: 5B/95DA26-B2BF-445B-9144-C377DBF6A0FA
 toc     : true
 public  : true
@@ -25,6 +25,9 @@ latex   : false
 ## [[/git]]
 * [[/git/rebase]]
 
+## [[/roadmap]]
+- [[/roadmap/pytorch]]
+
 ## [[/vocabulary]]
 
 ## [[/how-to]]
@@ -32,7 +35,6 @@ latex   : false
 
 ## [[/math]]
 * [[/math/e-to-the-pi-times-i]]
-- [[/math/e-to-the-pi-times-i]]
 
 ## [[/google-ml-bootcamp2023]]
 - [[/google-ml-bootcamp2023/interview/pietel_abbeel]]
