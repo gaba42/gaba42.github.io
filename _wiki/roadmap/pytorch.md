@@ -1,9 +1,9 @@
 ---
 layout  : category
-title   : pytorch
+title   : Pytorch
 summary : 
 date    : 2023-10-03 17:00:03 +0900
-updated : 2023-10-03 21:26:50 +0900
+updated : 2023-10-03 21:35:08 +0900
 tag     : 
 resource: B5/4C24C8-47F0-4B50-A91C-DAB0DCE83905
 toc     : true
