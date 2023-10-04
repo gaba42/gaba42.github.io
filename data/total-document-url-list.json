@@ -11,6 +11,7 @@
  "/wiki/drive/okky-google",
  "/wiki/git",
  "/wiki/git/rebase",
+ "/wiki/glossary",
  "/wiki/google-ml-bootcamp2023",
  "/wiki/google-ml-bootcamp2023/interview/pietel_abbeel",
  "/wiki/how-to",
@@ -25,6 +26,5 @@
  "/wiki/roadmap/pytorch/pytorchdl2",
  "/wiki/roadmap/system_adminstration",
  "/wiki/roadmap/web_development",
- "/wiki/root-index",
- "/wiki/vocabulary"
+ "/wiki/root-index"
 ]

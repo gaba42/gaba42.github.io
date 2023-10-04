@@ -3,7 +3,7 @@ layout  : wikiindex
 title   : WIKI
 summary : 
 date    : 2023-08-20 16:04:36 +0900
-updated : 2023-10-03 21:26:50 +0900
+updated : 2023-10-04 10:30:12 +0900
 resource: 5B/95DA26-B2BF-445B-9144-C377DBF6A0FA
 toc     : true
 public  : true
@@ -28,7 +28,7 @@ latex   : false
 - [[/roadmap/pytorch]]
     - [[/roadmap/pytorch/pytorchdl2]]
 
-## [[/vocabulary]]
+## [[/glossary]]
 
 ## [[/how-to]]
 - [[/how-to/mac-recording-with-audio]]

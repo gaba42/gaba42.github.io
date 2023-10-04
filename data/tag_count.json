@@ -1,5 +1,9 @@
 [
  {
+  "name": "오일러",
+  "size": 1
+ },
+ {
   "name": "abbeel",
   "size": 1
  },
@@ -61,10 +65,6 @@
  },
  {
   "name": "roadmap",
-  "size": 1
- },
- {
-  "name": "오일러",
   "size": 1
  }
 ]
