@@ -3,7 +3,7 @@ layout  : category
 title   : DL mastery roadmap
 summary : 마스터가 되는 여정
 date    : 2023-10-03 16:52:04 +0900
-updated : 2023-10-03 20:24:32 +0900
+updated : 2023-10-04 13:15:13 +0900
 tag     : roadmap
 resource: C5/6C51F0-50E2-4754-8FDD-B4EC254CE1CD
 toc     : true
@@ -57,3 +57,5 @@ latex   : false
 - 논문을 읽을 수 있다 vs 없다
 - 깃헙 자료를 본인 컴퓨터에 돌려볼 수 있다 vs 없다
 - 수학 기호
+
+## 하위문서
