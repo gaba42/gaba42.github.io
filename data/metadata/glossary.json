@@ -5,5 +5,7 @@
  "parent": "root-index",
  "url": "/wiki/glossary",
  "updated": "2023-10-04 10:50:44 +0900",
- "children": []
+ "children": [
+  "dl_fundamentals"
+ ]
 }
