@@ -3,11 +3,11 @@ layout  : category
 title   : 용어
 summary : 용어와 익숙해짐의 문제
 date    : 2023-10-04 10:28:06 +0900
-updated : 2023-10-04 10:29:59 +0900
+updated : 2023-10-04 10:50:44 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[/index]]
+parent  : [[/root-index]]
 latex   : false
 ---
 * TOC
