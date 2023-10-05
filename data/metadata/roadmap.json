@@ -9,6 +9,7 @@
  "children": [
   "roadmap/python",
   "roadmap/pytorch",
+  "roadmap/scratch_dl2",
   "roadmap/system_adminstration",
   "roadmap/web_development"
  ]

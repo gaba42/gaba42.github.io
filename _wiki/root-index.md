@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : WIKI
 date    : 2023-08-20 16:04:36 +0900
-updated : 2023-10-04 14:04:16 +0900
+updated : 2023-10-05 16:16:02 +0900
 resource: 5B/95DA26-B2BF-445B-9144-C377DBF6A0FA
 toc     : true
 public  : true
@@ -27,11 +27,8 @@ regenerate: true
 
 ## [[/roadmap]]
 - [[/roadmap/pytorch]]
+	- [[/roadmap/scratch_dl2]] 
     - [[/roadmap/pytorch/pytorchdl2]]
-
-## [[/glossary]]
-- [[/dl_fundamentals]]
-- [[/glossary/fund_test]]
 
 ## [[/how-to]]
 - [[/how-to/mac-recording-with-audio]]
