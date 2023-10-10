@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : WIKI
 date    : 2023-08-20 16:04:36 +0900
-updated : 2023-10-06 00:04:14 +0900
+updated : 2023-10-10 13:51:11 +0900
 resource: 5B/95DA26-B2BF-445B-9144-C377DBF6A0FA
 toc     : true
 public  : true
@@ -47,4 +47,7 @@ regenerate: true
 ## [[/book]]
 
 ## [[/projects]]
-	- [[/projects/optical_illusion]]
+- [[/projects/optical_illusion]]
+
+## 미분류
+- [[/useful-linux-command]]
