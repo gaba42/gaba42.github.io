@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "습관",
+ "summary": "\"습관은 그 어떤 일도 할 수 있게 만든다.\"",
+ "parent": "index",
+ "url": "/wiki/habit",
+ "updated": "2023-10-12 10:15:32 +0900",
+ "children": [
+  "habit/daily"
+ ]
+}

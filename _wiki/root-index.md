@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : WIKI
 date    : 2023-08-20 16:04:36 +0900
-updated : 2023-10-10 13:51:11 +0900
+updated : 2023-10-12 14:14:04 +0900
 resource: 5B/95DA26-B2BF-445B-9144-C377DBF6A0FA
 toc     : true
 public  : true
@@ -33,8 +33,13 @@ regenerate: true
 ## [[/how-to]]
 - [[/how-to/mac-recording-with-audio]]
 
+## [[/python]]
+
+## [[/study]]
+
 ## [[/math]]
 * [[/math/e-to-the-pi-times-i]]
+* [[/math/glossary]]
 
 ## [[/google-ml-bootcamp2023]]
 - [[/google-ml-bootcamp2023/interview/pietel_abbeel]]
@@ -43,6 +48,11 @@ regenerate: true
 
 ## [[/drive]]
 * [[/drive/okky-google]]
+
+## [[/habit]]
+- [[/habit/daily]]
+- [[/habit/algorithm]]
+- [[/habit/algorithm/programmers-plan]]
 
 ## [[/book]]
 

@@ -6,14 +6,18 @@
  "resource": "E8/147DC1-792D-4B72-8CA9-A1C20ADC08DE",
  "children": [
   "archive",
+  "archive/wkr",
   "book",
   "deeplearning",
   "drive",
   "git",
   "google-ml-bootcamp2023",
+  "habit",
+  "habit/algorithm",
   "how-to",
   "math",
   "neuroscience",
+  "python",
   "roadmap",
   "useful-linux-command"
  ]
