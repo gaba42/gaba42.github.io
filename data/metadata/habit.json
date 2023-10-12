@@ -6,6 +6,7 @@
  "url": "/wiki/habit",
  "updated": "2023-10-12 10:15:32 +0900",
  "children": [
+  "habit/algorithm",
   "habit/daily"
  ]
 }

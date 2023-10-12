@@ -1,13 +1,13 @@
 ---
 layout  : category
-title   : 알고리즘 풀이
+title   : 알고리즘 
 summary : 
 date    : 2023-10-12 10:19:38 +0900
-updated : 2023-10-12 13:04:41 +0900
+updated : 2023-10-12 14:28:34 +0900
 tag     : 
 toc     : true
 public  : true
-parent  : [[/index]]
+parent  : [[/habit]]
 latex   : false
 ---
 * TOC

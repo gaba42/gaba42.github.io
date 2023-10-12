@@ -5,7 +5,7 @@
  },
  {
   "name": "프로그래머스",
-  "size": 2
+  "size": 1
  },
  {
   "name": "abbeel",
@@ -72,6 +72,10 @@
   "size": 1
  },
  {
+  "name": "lv1",
+  "size": 1
+ },
+ {
   "name": "math",
   "size": 1
  },
@@ -81,6 +85,10 @@
  },
  {
   "name": "pietel",
+  "size": 1
+ },
+ {
+  "name": "programmers",
   "size": 1
  },
  {

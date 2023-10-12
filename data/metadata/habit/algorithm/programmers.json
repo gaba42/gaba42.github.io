@@ -1,0 +1,11 @@
+{
+ "type": "wiki",
+ "title": "프로그래머스",
+ "summary": "",
+ "parent": "habit/algorithm",
+ "url": "/wiki/habit/algorithm/programmers",
+ "updated": "2023-10-12 14:31:12 +0900",
+ "children": [
+  "habit/algorithm/level1"
+ ]
+}

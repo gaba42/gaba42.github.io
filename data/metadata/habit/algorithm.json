@@ -1,12 +1,11 @@
 {
  "type": "wiki",
- "title": "알고리즘 풀이",
+ "title": "알고리즘",
  "summary": "",
- "parent": "index",
+ "parent": "habit",
  "url": "/wiki/habit/algorithm",
- "updated": "2023-10-12 13:04:41 +0900",
+ "updated": "2023-10-12 14:28:34 +0900",
  "children": [
-  "habit/algorithm/programmers-plan",
-  "habit/algorithm/training"
+  "habit/algorithm/programmers"
  ]
 }
