@@ -4,8 +4,9 @@
  "summary": "",
  "parent": "habit/algorithm",
  "url": "/wiki/habit/algorithm/programmers",
- "updated": "2023-10-12 14:31:12 +0900",
+ "updated": "2023-10-13 13:55:10 +0900",
  "children": [
-  "habit/algorithm/level1"
+  "habit/algorithm/level1",
+  "habit/algorithm/programmers-level1"
  ]
 }
