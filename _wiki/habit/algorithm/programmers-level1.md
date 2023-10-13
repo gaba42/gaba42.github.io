@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래머스 level 1
 summary : 
 date    : 2023-10-13 13:27:06 +0900
-updated : 2023-10-13 14:05:49 +0900
+updated : 2023-10-13 17:12:14 +0900
 tag     : programmers algorithm
 resource: B2/CDD069-F383-48AC-B1F3-3A3517E4EC1E
 toc     : true
@@ -87,10 +87,83 @@ def evenOrOdd(num):
 
 예를 들어 s가 "pPoooyY"면 true를 return하고 "Pyy"라면 false를 return합니다.
 
-제한사항
-문자열 s의 길이 : 50 이하의 자연수
-문자열 s는 알파벳으로만 이루어져 있습니다.
+**제한사항**
+- 문자열 s의 길이 : 50 이하의 자연수
+- 문자열 s는 알파벳으로만 이루어져 있습니다.
 
+**입출력 예**
+
+| s         | answer |
+|-----------|--------|
+| "pPoooyY" | true   |
+| "Pyy"     | false  |
+
+```python
+# 내 풀이
+def solution(s):
+    answer = True
+    
+    # [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+    s = s.lower()
+    p1 = 0
+    y1 = 0
+    res = [x for x in s if x == 'p' or x == 'y']
+    if len(res) % 2 != 0:
+        return False
+    else:
+        for i in res:
+            if i == 'p':
+                p1 += 1
+            else:
+                y1 += 1
+        
+        if p1 == y1:
+            answer=True
+        else:
+            answer = False
+        
+    return answer
+
+# count()
+def solution(n):
+    return s.lower().count('p') == s.lower().count('y')
+
+# Counter
+from collections import Counter
+def solution(n):
+    c = Counter(s.lower())
+    return c['p'] == c['y']
+    
+# return 에서 바로 비교
+return a == b
+```
+
+내 풀이는 좀더 구구절절인 반면, 다른 사용자들의 풀이는 읽기도 쉽고 훨씬 직관적이다.
+
+## 정수 제곱근 판별
+
+```python
+import math
+def solution(n):
+    answer = 0
+    if math.sqrt(n).is_integer():
+        return (math.sqrt(n) + 1)**2
+    return -1
+
+#  ** (1/2) == sqrt()
+def nextSqure(n):
+    sqrt = n ** (1/2)
+
+    if sqrt % 1 == 0:
+        return (sqrt + 1) ** 2
+    return 'no'
+    
+# **(1/2)이 제곱근!
+```
+이 문제의 다른 사람 풀이들을 보면서 코드가 짧으면 좋은 코드라는 인식이 있어서인지 무조건 짧게만 작성하려고 하는 듯한 느낌을 받았다.
+코딩은 작문이다. 한글로 작문하느냐, 파이썬으로 작문하느냐, 언어의 차이가 있을 뿐. 컴퓨터 언어(computer language)라고 불리는데는 이유가 있다. 
+
+## 
 
 ---
 - 1013 : 7개
