@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래머스 level 1
 summary : 
 date    : 2023-10-13 13:27:06 +0900
-updated : 2023-10-15 11:40:29 +0900
+updated : 2023-10-16 23:10:33 +0900
 tag     : programmers algorithm
 resource: B2/CDD069-F383-48AC-B1F3-3A3517E4EC1E
 toc     : true
@@ -169,4 +169,5 @@ def nextSqure(n):
 - 1012 : 8
 - 1013 : 4
 - 1014 : 2
-- 1015 : 
+- 1015 : 4
+- 1016 : 
