@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래머스 level 1
 summary : 
 date    : 2023-10-13 13:27:06 +0900
-updated : 2023-10-25 22:39:21 +0900
+updated : 2023-10-27 09:29:16 +0900
 tag     : programmers algorithm
 resource: B2/CDD069-F383-48AC-B1F3-3A3517E4EC1E
 toc     : true
@@ -163,7 +163,73 @@ def nextSqure(n):
 이 문제의 다른 사람 풀이들을 보면서 코드가 짧으면 좋은 코드라는 인식이 있어서인지 무조건 짧게만 작성하려고 하는 듯한 느낌을 받았다.
 코딩은 작문이다. 한글로 작문하느냐, 파이썬으로 작문하느냐, 언어의 차이가 있을 뿐. 컴퓨터 언어(computer language)라고 불리는데는 이유가 있다. 
 
-## 
+
+## [크기가 작은 부분 문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355)
+![문제설명](https://github.com/gaba42/gaba42.github.io/assets/106816837/287c214f-7ce3-4b8e-a06b-7f3d2712ff36)
+![입출력 예](https://github.com/gaba42/gaba42.github.io/assets/106816837/26050c68-317c-40bd-a32b-97432d9ff5ca)
+```python
+def solution(t, p):
+    result = []
+    # 7(t의 길이) - 3(p의 길이) + 1 = 5(가능한 조합 개수) 
+    for i in range(len(t) - len(p)+1):
+        # t[0+4] 슬라이싱 해서 result에 추가
+        result.append(t[i:i+len(p)])
+    
+    cnt = 0
+    # result 값들 비교
+    for num in result:
+        # p 보다 작거나 같으면
+        if num <= p:
+            # cnt 1씩 증가
+            cnt += 1
+    return cnt
+```
+
+
+## [삼총사](https://school.programmers.co.kr/learn/courses/30/lessons/131705)
+![문제설명](https://github.com/gaba42/gaba42.github.io/assets/106816837/dfa8aa88-8c52-4f02-b6ba-1167dbe5c0f7)
+![입출력 예](https://github.com/gaba42/gaba42.github.io/assets/106816837/cefbc84f-3cdf-44ef-80b9-0dda42d183d3)
+
+```python
+from itertools import combinations
+
+def solution(number):
+    cnt = 0
+    # 입력시 넘겨받은 리스트의 가능한 모든 조합
+    comb = list(combinations(number, 3))
+    for i in comb:
+        # 조합들의 값이 0과 같다면 cnt 1 증가
+        if sum(i) == 0:
+            cnt += 1
+    return cnt
+```
+"python combination"을 googling 했더니  combinations라는 모듈을 알게 되었다.
+이름도 사용하는 방식도 직관적.
+
+
+## [최소 직사각형](https://school.programmers.co.kr/learn/courses/30/lessons/86491)
+![문제설명](https://github.com/gaba42/gaba42.github.io/assets/106816837/2ed43d3f-77f3-4023-b021-e6ceea3430bc)
+![입출력 예](https://github.com/gaba42/gaba42.github.io/assets/106816837/489dcf44-ed4b-4d68-9c22-1e059ece4433)
+
+```python
+def solutino(sizes):
+    re_sizes = [sorted(pair) for pair in sizes]
+    size_x = max([pair[0] for pair in re_sizes])
+    size_y = max([pair[1] for pair in re_sizes])
+    
+    ans = size_x * size_y
+    return ans
+```
+좀 더 효율적인 방식으로 짤 수 있을 것 같았는데 역시나.
+
+```python
+def solution(sizes):
+    return max(max(x) for x in sizes) * max(min(x) for x in sizes)
+```
+둘 중 큰 수 중 가장 큰 수 * 둘 중 작은 수 중 가장 큰 수  
+위 방식으로 계산을 끝내버려서 내가 한 방식보다 훨씬 더 간결하고 이해하기도 쉽다.
+
+
 
 ---
 - 1012 : 8
@@ -180,3 +246,5 @@ def nextSqure(n):
 - 1023 : 1  74121
 - 1024 : 1  69194 (6만대 진입)
 - 1025 : 1  67223
+- 1026 : 1  66600
+- 1027 : 1  66366
