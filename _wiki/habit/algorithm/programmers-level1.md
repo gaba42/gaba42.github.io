@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래머스 level 1
 summary : 
 date    : 2023-10-13 13:27:06 +0900
-updated : 2023-10-27 09:29:16 +0900
+updated : 2023-10-29 10:22:37 +0900
 tag     : programmers algorithm
 resource: B2/CDD069-F383-48AC-B1F3-3A3517E4EC1E
 toc     : true
@@ -230,6 +230,24 @@ def solution(sizes):
 위 방식으로 계산을 끝내버려서 내가 한 방식보다 훨씬 더 간결하고 이해하기도 쉽다.
 
 
+## [시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926)
+[문제설명](https://github.com/gaba42/gaba42.github.io/assets/106816837/da22b31f-7744-4961-a600-e76e893e2663)
+[입출력 예시](https://github.com/gaba42/gaba42.github.io/assets/106816837/9f08e961-cbdf-4738-90a6-3424749ec717)
+
+```python
+def solution(s, n):
+    ans = ''
+    for char in s:
+        if char.isalpha():
+            ascii_num = ord('a') if char.islower() else ord('A')
+            ans += chr((ord(char) - ascii_num + n) % 26 + ascii_num)
+        else:
+            ans += char
+    return ans
+```
+- 공백이나 숫자는 건드리지 않기 위해 isalpha() 사용해 1차 거른다.
+- 아스키 코드값과 아스키 문자로 변환해주는 함수를 사용해 불필요한 리스트를 만들지 않도록 했다.
+- 알파벳의 총 길이 26을 넘기지 않도록 modulo 사용해 확인
 
 ---
 - 1012 : 8
@@ -248,3 +266,5 @@ def solution(sizes):
 - 1025 : 1  67223
 - 1026 : 1  66600
 - 1027 : 1  66366
+- 1028 : 1  63542
+- 1029 : 
