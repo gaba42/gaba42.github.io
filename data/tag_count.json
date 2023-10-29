@@ -68,10 +68,6 @@
   "size": 1
  },
  {
-  "name": "lv1",
-  "size": 1
- },
- {
   "name": "math",
   "size": 1
  },
@@ -85,7 +81,7 @@
  },
  {
   "name": "programmers",
-  "size": 2
+  "size": 1
  },
  {
   "name": "pytorch",
@@ -113,10 +109,6 @@
  },
  {
   "name": "오일러",
-  "size": 1
- },
- {
-  "name": "프로그래머스",
   "size": 1
  }
 ]
