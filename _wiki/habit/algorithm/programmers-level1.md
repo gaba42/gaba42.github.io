@@ -3,7 +3,7 @@ layout  : wiki
 title   : 프로그래머스 level 1
 summary : 
 date    : 2023-10-13 13:27:06 +0900
-updated : 2023-10-29 10:22:37 +0900
+updated : 2023-10-29 19:27:12 +0900
 tag     : programmers algorithm
 resource: B2/CDD069-F383-48AC-B1F3-3A3517E4EC1E
 toc     : true
@@ -267,4 +267,4 @@ def solution(s, n):
 - 1026 : 1  66600
 - 1027 : 1  66366
 - 1028 : 1  63542
-- 1029 : 
+- 1029 : 1  61919
