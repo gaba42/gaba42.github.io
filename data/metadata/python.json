@@ -5,5 +5,7 @@
  "parent": "index",
  "url": "/wiki/python",
  "updated": "2023-10-12 13:30:53 +0900",
- "children": []
+ "children": [
+  "python/oop-pygame"
+ ]
 }
