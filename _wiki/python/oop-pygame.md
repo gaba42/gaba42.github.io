@@ -3,7 +3,7 @@ layout  : wiki
 title   : object oriented python
 summary : 객체지향 파이썬
 date    : 2023-11-04 12:31:47 +0900
-updated : 2023-11-09 15:07:50 +0900
+updated : 2023-11-12 15:51:51 +0900
 tag     : oop
 resource: D1/971EA0-D3FE-4BA9-81F4-6C94C30DD355
 toc     : true
@@ -183,3 +183,4 @@ subclass는 2가지 방식으로 base class를 확장할 수 있다.
 - **추상 클래스(abstract class)**: 직접 객체를 생성할 의도로 작성되지 않은 클래스. 하나 이상의 하위 클래스를 위한 기반 클래스로만 쓴다(일부 언어에서는 가상 클래스라고도 한다)
 - **추상 메서드(abstract method)**: 모든 하위 클래스가 재정의해야 하는 메서드
 - **클래스 변수(class variable)**: 클래스가 소유하는 변수. 객체 수와 상관없이 클래스 변수는 오직 하나만 존재한다.
+- **상태 머신**: 일련의 상태에 따른 실행 흐름을 표현하고 제어하는 모델
