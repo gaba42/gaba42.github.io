@@ -2,7 +2,7 @@
 layout  : wikiindex
 title   : WIKI
 date    : 2023-08-20 16:04:36 +0900
-updated : 2023-12-08 11:32:43 +0900
+updated : 2023-12-11 11:09:19 +0900
 resource: 5B/95DA26-B2BF-445B-9144-C377DBF6A0FA
 toc     : true
 public  : true
@@ -42,15 +42,13 @@ regenerate: true
 - [[/google-ml-bootcamp2023/interview/pietel_abbeel]]
 
 ## [[/neuroscience]]
+- [[/neuroscience/naperville_central_high_school]]
 
 ## [[/drive]]
 * [[/drive/okky-google]]
 
 ## [[/habit]]
 - [[/habit/daily]]
-- [[/habit/algorithm]]
-- [[/habit/algorithm/programmers]]
-    - [[/habit/algorithm/programmers-level1]]
 
 ## [[/book]]
 - [[/book/completion-of-action]]
